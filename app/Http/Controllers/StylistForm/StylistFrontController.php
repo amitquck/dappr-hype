@@ -337,7 +337,7 @@ class StylistFrontController extends Controller
             else
             {
                 $product_ids_column = '';
-                $product_select_val = $request->product_select;
+                $product_select_val = $request->product_select??'';
                 $get_id_for_feedback = stylistRevealsItems::where('id', $request->stylist_form_id)->latest()->first();
                 if(isset($get_id_for_feedback) && !empty($get_id_for_feedback))
                 {
@@ -345,9 +345,10 @@ class StylistFrontController extends Controller
                     $alter_product_ids_column = explode(',', $get_id_for_feedback->alernative_product_ids);
                     $mege_data = array_merge($product_ids_column,$alter_product_ids_column);
 
+
                     foreach($mege_data as $key => $mege_data_val)
                     {
-                        if(!array_key_exists($mege_data_val, $product_select_val))
+                        if(!is_array($product_select_val) && !empty($product_select_val) && !array_key_exists($mege_data_val, $product_select_val))
                         {
                             // $confimr_feebk_arr = array_pop($mege_data_val);
                             // print_r('confimr_feebk_arr' .  $confimr_feebk_arr);
