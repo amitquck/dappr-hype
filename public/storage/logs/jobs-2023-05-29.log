@@ -1,0 +1,987 @@
+[2023-05-29 16:18:13] local.INFO: ............. Job Processing:: App\Notifications\Order\OrderCreated .................  
+[2023-05-29 16:18:13] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '881dfce6-c766-4f15-9c2b-f93ac80aa9b6',
+    'displayName' => 'App\\Notifications\\Order\\OrderCreated',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:3;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:36:"App\\Notifications\\Order\\OrderCreated":12:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:447;s:9:"relations";a:2:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"a89883f2-4af7-41b3-9b13-47690458a720";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:4:"mail";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 16:18:17] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 16:18:17] local.INFO: ............. Job Processing:: App\Notifications\Order\OrderCreated .................  
+[2023-05-29 16:18:17] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '61aa8c58-524a-40a0-917f-deea5b9b7afe',
+    'displayName' => 'App\\Notifications\\Order\\OrderCreated',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:3;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:36:"App\\Notifications\\Order\\OrderCreated":12:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:447;s:9:"relations";a:2:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"a89883f2-4af7-41b3-9b13-47690458a720";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:8:"database";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 16:18:17] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 16:18:17] local.INFO: ............. Job Processing:: App\Listeners\Order\NotifyCustomerOrderPlaced .................  
+[2023-05-29 16:18:17] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '8663abae-4219-480a-99ab-b42e31b36e97',
+    'displayName' => 'App\\Listeners\\Order\\NotifyCustomerOrderPlaced',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => 5,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Events\\CallQueuedListener',
+      'command' => 'O:36:"Illuminate\\Events\\CallQueuedListener":19:{s:5:"class";s:45:"App\\Listeners\\Order\\NotifyCustomerOrderPlaced";s:6:"method";s:6:"handle";s:4:"data";a:1:{i:0;O:29:"App\\Events\\Order\\OrderCreated":2:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:447;s:9:"relations";a:2:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";}s:10:"connection";s:5:"mysql";}s:15:"notify_customer";N;}}s:5:"tries";i:5;s:13:"maxExceptions";N;s:7:"backoff";N;s:10:"retryUntil";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 16:18:17] local.INFO: ............. Job Processing:: App\Notifications\Order\OrderCreated .................  
+[2023-05-29 16:18:17] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => 'e81c32a1-8c22-46f6-93d2-8636df1108e8',
+    'displayName' => 'App\\Notifications\\Order\\OrderCreated',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";a:1:{i:0;i:255;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:36:"App\\Notifications\\Order\\OrderCreated":12:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:447;s:9:"relations";a:3:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";i:2;s:8:"customer";}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"fa312662-b60a-45c5-9ff8-90f101e5c9c3";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:4:"mail";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 16:18:17] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 16:18:17] local.INFO: ............. Job Processing:: App\Notifications\Order\OrderCreated .................  
+[2023-05-29 16:18:17] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => 'e2742afa-a187-4d45-b420-6876e16de67c',
+    'displayName' => 'App\\Notifications\\Order\\OrderCreated',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";a:1:{i:0;i:255;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:36:"App\\Notifications\\Order\\OrderCreated":12:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:447;s:9:"relations";a:3:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";i:2;s:8:"customer";}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"fa312662-b60a-45c5-9ff8-90f101e5c9c3";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:8:"database";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 16:18:17] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 16:18:17] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 16:18:17] local.INFO: ............. Job Processing:: App\Listeners\Order\NotifyMerchantNewOrderPlaced .................  
+[2023-05-29 16:18:17] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '8caf941d-150b-47c9-9ccb-a9f197ee892e',
+    'displayName' => 'App\\Listeners\\Order\\NotifyMerchantNewOrderPlaced',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => 5,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Events\\CallQueuedListener',
+      'command' => 'O:36:"Illuminate\\Events\\CallQueuedListener":19:{s:5:"class";s:48:"App\\Listeners\\Order\\NotifyMerchantNewOrderPlaced";s:6:"method";s:6:"handle";s:4:"data";a:1:{i:0;O:29:"App\\Events\\Order\\OrderCreated":2:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:447;s:9:"relations";a:2:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";}s:10:"connection";s:5:"mysql";}s:15:"notify_customer";N;}}s:5:"tries";i:5;s:13:"maxExceptions";N;s:7:"backoff";N;s:10:"retryUntil";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 16:18:17] local.INFO: ............. Job Processing:: App\Notifications\Order\MerchantOrderCreatedNotification .................  
+[2023-05-29 16:18:17] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '0b2035c2-04cd-4d78-9a49-6e850746925f',
+    'displayName' => 'App\\Notifications\\Order\\MerchantOrderCreatedNotification',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:3;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:56:"App\\Notifications\\Order\\MerchantOrderCreatedNotification":12:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:447;s:9:"relations";a:4:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";i:2;s:4:"shop";i:3;s:10:"shop.owner";}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"f4bb8f80-7d8b-43c1-a08f-1291bcdd766a";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:4:"mail";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 16:18:17] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 16:18:17] local.INFO: ............. Job Processing:: App\Notifications\Order\MerchantOrderCreatedNotification .................  
+[2023-05-29 16:18:17] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '4f7024f5-3766-4c8e-8f89-59903c2f277b',
+    'displayName' => 'App\\Notifications\\Order\\MerchantOrderCreatedNotification',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:3;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:56:"App\\Notifications\\Order\\MerchantOrderCreatedNotification":12:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:447;s:9:"relations";a:4:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";i:2;s:4:"shop";i:3;s:10:"shop.owner";}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"f4bb8f80-7d8b-43c1-a08f-1291bcdd766a";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:8:"database";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 16:18:17] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 16:18:17] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 16:18:17] local.INFO: ............. Job Processing:: App\Listeners\Order\LowInventoryCheck .................  
+[2023-05-29 16:18:17] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '979948dd-fd68-4b57-9643-f54c91807281',
+    'displayName' => 'App\\Listeners\\Order\\LowInventoryCheck',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => 5,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Events\\CallQueuedListener',
+      'command' => 'O:36:"Illuminate\\Events\\CallQueuedListener":19:{s:5:"class";s:37:"App\\Listeners\\Order\\LowInventoryCheck";s:6:"method";s:6:"handle";s:4:"data";a:1:{i:0;O:29:"App\\Events\\Order\\OrderCreated":2:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:447;s:9:"relations";a:2:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";}s:10:"connection";s:5:"mysql";}s:15:"notify_customer";N;}}s:5:"tries";i:5;s:13:"maxExceptions";N;s:7:"backoff";N;s:10:"retryUntil";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 16:18:17] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 16:45:24] local.INFO: ............. Job Processing:: App\Notifications\Order\OrderCreated .................  
+[2023-05-29 16:45:24] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '328648af-f4e8-4aa1-b208-9dfee06f93c5',
+    'displayName' => 'App\\Notifications\\Order\\OrderCreated',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:3;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:36:"App\\Notifications\\Order\\OrderCreated":12:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:448;s:9:"relations";a:2:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"553bd442-77dd-4ca8-9e79-682421b6f528";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:4:"mail";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 16:45:24] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 16:45:24] local.INFO: ............. Job Processing:: App\Notifications\Order\OrderCreated .................  
+[2023-05-29 16:45:24] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '806460e7-7f59-487b-a03d-3dddfd32dbd7',
+    'displayName' => 'App\\Notifications\\Order\\OrderCreated',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:3;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:36:"App\\Notifications\\Order\\OrderCreated":12:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:448;s:9:"relations";a:2:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"553bd442-77dd-4ca8-9e79-682421b6f528";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:8:"database";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 16:45:24] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 16:45:24] local.INFO: ............. Job Processing:: App\Listeners\Order\NotifyCustomerOrderPlaced .................  
+[2023-05-29 16:45:24] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => 'a3a1a2cb-1850-4e2d-810a-3f6a30c6e2e2',
+    'displayName' => 'App\\Listeners\\Order\\NotifyCustomerOrderPlaced',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => 5,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Events\\CallQueuedListener',
+      'command' => 'O:36:"Illuminate\\Events\\CallQueuedListener":19:{s:5:"class";s:45:"App\\Listeners\\Order\\NotifyCustomerOrderPlaced";s:6:"method";s:6:"handle";s:4:"data";a:1:{i:0;O:29:"App\\Events\\Order\\OrderCreated":2:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:448;s:9:"relations";a:2:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";}s:10:"connection";s:5:"mysql";}s:15:"notify_customer";N;}}s:5:"tries";i:5;s:13:"maxExceptions";N;s:7:"backoff";N;s:10:"retryUntil";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 16:45:24] local.INFO: ............. Job Processing:: App\Notifications\Order\OrderCreated .................  
+[2023-05-29 16:45:24] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '841f14fe-a714-4aac-9c0c-c3a74acd2929',
+    'displayName' => 'App\\Notifications\\Order\\OrderCreated',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";a:1:{i:0;i:255;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:36:"App\\Notifications\\Order\\OrderCreated":12:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:448;s:9:"relations";a:3:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";i:2;s:8:"customer";}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"d1242fc5-697d-421e-9da3-7446b8d02051";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:4:"mail";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 16:45:24] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 16:45:24] local.INFO: ............. Job Processing:: App\Notifications\Order\OrderCreated .................  
+[2023-05-29 16:45:24] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '504e1b12-4099-40c7-835d-4c282bb60b3b',
+    'displayName' => 'App\\Notifications\\Order\\OrderCreated',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";a:1:{i:0;i:255;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:36:"App\\Notifications\\Order\\OrderCreated":12:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:448;s:9:"relations";a:3:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";i:2;s:8:"customer";}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"d1242fc5-697d-421e-9da3-7446b8d02051";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:8:"database";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 16:45:24] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 16:45:24] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 16:45:24] local.INFO: ............. Job Processing:: App\Listeners\Order\NotifyMerchantNewOrderPlaced .................  
+[2023-05-29 16:45:24] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '117eff12-af5f-4e04-8826-3db33ba6eadf',
+    'displayName' => 'App\\Listeners\\Order\\NotifyMerchantNewOrderPlaced',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => 5,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Events\\CallQueuedListener',
+      'command' => 'O:36:"Illuminate\\Events\\CallQueuedListener":19:{s:5:"class";s:48:"App\\Listeners\\Order\\NotifyMerchantNewOrderPlaced";s:6:"method";s:6:"handle";s:4:"data";a:1:{i:0;O:29:"App\\Events\\Order\\OrderCreated":2:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:448;s:9:"relations";a:2:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";}s:10:"connection";s:5:"mysql";}s:15:"notify_customer";N;}}s:5:"tries";i:5;s:13:"maxExceptions";N;s:7:"backoff";N;s:10:"retryUntil";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 16:45:24] local.INFO: ............. Job Processing:: App\Notifications\Order\MerchantOrderCreatedNotification .................  
+[2023-05-29 16:45:24] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => 'a5dab6dc-8dc0-4e7d-937e-c9c5d1c52724',
+    'displayName' => 'App\\Notifications\\Order\\MerchantOrderCreatedNotification',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:3;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:56:"App\\Notifications\\Order\\MerchantOrderCreatedNotification":12:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:448;s:9:"relations";a:4:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";i:2;s:4:"shop";i:3;s:10:"shop.owner";}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"4ed3cab3-461a-431f-a4aa-ba432ffea5ab";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:4:"mail";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 16:45:24] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 16:45:24] local.INFO: ............. Job Processing:: App\Notifications\Order\MerchantOrderCreatedNotification .................  
+[2023-05-29 16:45:24] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '393d6177-a585-422e-a022-d017787070fc',
+    'displayName' => 'App\\Notifications\\Order\\MerchantOrderCreatedNotification',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:3;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:56:"App\\Notifications\\Order\\MerchantOrderCreatedNotification":12:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:448;s:9:"relations";a:4:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";i:2;s:4:"shop";i:3;s:10:"shop.owner";}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"4ed3cab3-461a-431f-a4aa-ba432ffea5ab";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:8:"database";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 16:45:25] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 16:45:25] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 16:45:25] local.INFO: ............. Job Processing:: App\Listeners\Order\LowInventoryCheck .................  
+[2023-05-29 16:45:25] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '19e274e7-d156-4444-aa37-09996072d58e',
+    'displayName' => 'App\\Listeners\\Order\\LowInventoryCheck',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => 5,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Events\\CallQueuedListener',
+      'command' => 'O:36:"Illuminate\\Events\\CallQueuedListener":19:{s:5:"class";s:37:"App\\Listeners\\Order\\LowInventoryCheck";s:6:"method";s:6:"handle";s:4:"data";a:1:{i:0;O:29:"App\\Events\\Order\\OrderCreated":2:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:448;s:9:"relations";a:2:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";}s:10:"connection";s:5:"mysql";}s:15:"notify_customer";N;}}s:5:"tries";i:5;s:13:"maxExceptions";N;s:7:"backoff";N;s:10:"retryUntil";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 16:45:25] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 19:05:14] local.INFO: ............. Job Processing:: App\Notifications\Order\OrderCreated .................  
+[2023-05-29 19:05:14] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '5009aab9-f27a-4ce9-abe4-7735a24f0650',
+    'displayName' => 'App\\Notifications\\Order\\OrderCreated',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:3;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:36:"App\\Notifications\\Order\\OrderCreated":12:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:449;s:9:"relations";a:2:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"e2620ee6-bc77-406a-99c0-eeb70bc6aa55";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:4:"mail";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 19:05:17] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 19:05:17] local.INFO: ............. Job Processing:: App\Notifications\Order\OrderCreated .................  
+[2023-05-29 19:05:17] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => 'cc8d97bd-3414-42b2-89d8-0aaf9fd68a9c',
+    'displayName' => 'App\\Notifications\\Order\\OrderCreated',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:3;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:36:"App\\Notifications\\Order\\OrderCreated":12:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:449;s:9:"relations";a:2:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"e2620ee6-bc77-406a-99c0-eeb70bc6aa55";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:8:"database";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 19:05:17] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 19:05:17] local.INFO: ............. Job Processing:: App\Listeners\Order\NotifyCustomerOrderPlaced .................  
+[2023-05-29 19:05:17] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '9d9c26b5-57d5-4aea-8436-5a064428ac40',
+    'displayName' => 'App\\Listeners\\Order\\NotifyCustomerOrderPlaced',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => 5,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Events\\CallQueuedListener',
+      'command' => 'O:36:"Illuminate\\Events\\CallQueuedListener":19:{s:5:"class";s:45:"App\\Listeners\\Order\\NotifyCustomerOrderPlaced";s:6:"method";s:6:"handle";s:4:"data";a:1:{i:0;O:29:"App\\Events\\Order\\OrderCreated":2:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:449;s:9:"relations";a:2:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";}s:10:"connection";s:5:"mysql";}s:15:"notify_customer";N;}}s:5:"tries";i:5;s:13:"maxExceptions";N;s:7:"backoff";N;s:10:"retryUntil";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 19:05:17] local.INFO: ............. Job Processing:: App\Notifications\Order\OrderCreated .................  
+[2023-05-29 19:05:17] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '9e9fabdb-283d-4eed-8b11-6adaa11fd6be',
+    'displayName' => 'App\\Notifications\\Order\\OrderCreated',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";a:1:{i:0;i:255;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:36:"App\\Notifications\\Order\\OrderCreated":12:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:449;s:9:"relations";a:3:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";i:2;s:8:"customer";}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"7833d691-c943-4ad2-afdc-7936a099b1af";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:4:"mail";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 19:05:17] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 19:05:17] local.INFO: ............. Job Processing:: App\Notifications\Order\OrderCreated .................  
+[2023-05-29 19:05:17] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '99ca5990-f091-4f8a-99f7-7eff42def66a',
+    'displayName' => 'App\\Notifications\\Order\\OrderCreated',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";a:1:{i:0;i:255;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:36:"App\\Notifications\\Order\\OrderCreated":12:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:449;s:9:"relations";a:3:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";i:2;s:8:"customer";}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"7833d691-c943-4ad2-afdc-7936a099b1af";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:8:"database";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 19:05:17] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 19:05:17] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 19:05:17] local.INFO: ............. Job Processing:: App\Listeners\Order\NotifyMerchantNewOrderPlaced .................  
+[2023-05-29 19:05:17] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '4f62ed73-1d88-45ea-bd15-ae6707485fd5',
+    'displayName' => 'App\\Listeners\\Order\\NotifyMerchantNewOrderPlaced',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => 5,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Events\\CallQueuedListener',
+      'command' => 'O:36:"Illuminate\\Events\\CallQueuedListener":19:{s:5:"class";s:48:"App\\Listeners\\Order\\NotifyMerchantNewOrderPlaced";s:6:"method";s:6:"handle";s:4:"data";a:1:{i:0;O:29:"App\\Events\\Order\\OrderCreated":2:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:449;s:9:"relations";a:2:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";}s:10:"connection";s:5:"mysql";}s:15:"notify_customer";N;}}s:5:"tries";i:5;s:13:"maxExceptions";N;s:7:"backoff";N;s:10:"retryUntil";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 19:05:17] local.INFO: ............. Job Processing:: App\Notifications\Order\MerchantOrderCreatedNotification .................  
+[2023-05-29 19:05:17] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '3591e953-ca31-4e0c-a773-20bc474d1df8',
+    'displayName' => 'App\\Notifications\\Order\\MerchantOrderCreatedNotification',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:3;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:56:"App\\Notifications\\Order\\MerchantOrderCreatedNotification":12:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:449;s:9:"relations";a:4:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";i:2;s:4:"shop";i:3;s:10:"shop.owner";}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"b66614b0-865e-4f1b-9503-2e8e5362e0d7";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:4:"mail";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 19:05:17] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 19:05:17] local.INFO: ............. Job Processing:: App\Notifications\Order\MerchantOrderCreatedNotification .................  
+[2023-05-29 19:05:17] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '5c7106c3-123d-4746-bae6-d0ee4b46e4d1',
+    'displayName' => 'App\\Notifications\\Order\\MerchantOrderCreatedNotification',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:3;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:56:"App\\Notifications\\Order\\MerchantOrderCreatedNotification":12:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:449;s:9:"relations";a:4:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";i:2;s:4:"shop";i:3;s:10:"shop.owner";}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"b66614b0-865e-4f1b-9503-2e8e5362e0d7";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:8:"database";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 19:05:17] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 19:05:17] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 19:05:17] local.INFO: ............. Job Processing:: App\Listeners\Order\LowInventoryCheck .................  
+[2023-05-29 19:05:17] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => 'bc108805-d167-4971-bb9e-cf014a342c3a',
+    'displayName' => 'App\\Listeners\\Order\\LowInventoryCheck',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => 5,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Events\\CallQueuedListener',
+      'command' => 'O:36:"Illuminate\\Events\\CallQueuedListener":19:{s:5:"class";s:37:"App\\Listeners\\Order\\LowInventoryCheck";s:6:"method";s:6:"handle";s:4:"data";a:1:{i:0;O:29:"App\\Events\\Order\\OrderCreated":2:{s:5:"order";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:16:"App\\Models\\Order";s:2:"id";i:449;s:9:"relations";a:2:{i:0;s:13:"paymentMethod";i:1;s:11:"inventories";}s:10:"connection";s:5:"mysql";}s:15:"notify_customer";N;}}s:5:"tries";i:5;s:13:"maxExceptions";N;s:7:"backoff";N;s:10:"retryUntil";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 19:05:17] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:04:27] local.INFO: ............. Job Processing:: App\Notifications\Customer\Registered .................  
+[2023-05-29 20:04:27] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => 'e0c9dfba-1e5b-48ab-908b-e56b9bd1f659',
+    'displayName' => 'App\\Notifications\\Customer\\Registered',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:1;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:37:"App\\Notifications\\Customer\\Registered":12:{s:8:"customer";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";i:256;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"ad2d5eae-1012-4628-8f25-b0e551631e44";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:4:"mail";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:04:27] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:04:27] local.INFO: ............. Job Processing:: App\Notifications\Customer\Registered .................  
+[2023-05-29 20:04:27] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => 'ff30cd6e-9c7b-41c1-84d5-fa9750573de6',
+    'displayName' => 'App\\Notifications\\Customer\\Registered',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:1;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:37:"App\\Notifications\\Customer\\Registered":12:{s:8:"customer";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";i:256;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"ad2d5eae-1012-4628-8f25-b0e551631e44";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:8:"database";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:04:27] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:04:27] local.INFO: ............. Job Processing:: App\Notifications\Customer\Registered .................  
+[2023-05-29 20:04:27] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '8dbe34c5-62f6-49d1-bb0c-ca4f9ec5728d',
+    'displayName' => 'App\\Notifications\\Customer\\Registered',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:2;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:37:"App\\Notifications\\Customer\\Registered":12:{s:8:"customer";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";i:256;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"31793bec-b24e-4ed3-8d88-397213382ae8";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:4:"mail";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:04:27] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:04:27] local.INFO: ............. Job Processing:: App\Notifications\Customer\Registered .................  
+[2023-05-29 20:04:27] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => 'bf5978d3-78a0-4d86-8c6e-e34c0d838cc1',
+    'displayName' => 'App\\Notifications\\Customer\\Registered',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:2;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:37:"App\\Notifications\\Customer\\Registered":12:{s:8:"customer";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";i:256;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"31793bec-b24e-4ed3-8d88-397213382ae8";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:8:"database";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:04:27] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:04:27] local.INFO: ............. Job Processing:: App\Notifications\Customer\Registered .................  
+[2023-05-29 20:04:27] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => 'a9428366-ee77-40c3-9a82-51ee0191274c',
+    'displayName' => 'App\\Notifications\\Customer\\Registered',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:3;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:37:"App\\Notifications\\Customer\\Registered":12:{s:8:"customer";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";i:256;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"0d56ade7-c5c6-480f-b9f5-c401bc96d01e";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:4:"mail";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:04:27] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:04:27] local.INFO: ............. Job Processing:: App\Notifications\Customer\Registered .................  
+[2023-05-29 20:04:27] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '879de3c2-1565-40e2-9a82-91f23946aa1a',
+    'displayName' => 'App\\Notifications\\Customer\\Registered',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:3;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:37:"App\\Notifications\\Customer\\Registered":12:{s:8:"customer";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";i:256;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"0d56ade7-c5c6-480f-b9f5-c401bc96d01e";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:8:"database";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:04:27] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:04:27] local.INFO: ............. Job Processing:: App\Notifications\Customer\Registered .................  
+[2023-05-29 20:04:27] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '15d2f423-616c-42d8-a9b8-4486269393ab',
+    'displayName' => 'App\\Notifications\\Customer\\Registered',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:4;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:37:"App\\Notifications\\Customer\\Registered":12:{s:8:"customer";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";i:256;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"3a3ad67d-24eb-472f-8354-53380d165c09";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:4:"mail";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:04:27] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:04:27] local.INFO: ............. Job Processing:: App\Notifications\Customer\Registered .................  
+[2023-05-29 20:04:27] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '3f1576af-b052-482e-b714-4ba8f42f56d2',
+    'displayName' => 'App\\Notifications\\Customer\\Registered',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:4;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:37:"App\\Notifications\\Customer\\Registered":12:{s:8:"customer";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";i:256;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"3a3ad67d-24eb-472f-8354-53380d165c09";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:8:"database";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:04:27] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:04:27] local.INFO: ............. Job Processing:: App\Notifications\Customer\Registered .................  
+[2023-05-29 20:04:27] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '3fa64df3-67c0-40a8-b267-19d8c3de3106',
+    'displayName' => 'App\\Notifications\\Customer\\Registered',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:10;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:37:"App\\Notifications\\Customer\\Registered":12:{s:8:"customer";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";i:256;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"d3b242fc-fe93-4039-886c-c991f66c04ef";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:4:"mail";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:04:27] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:04:27] local.INFO: ............. Job Processing:: App\Notifications\Customer\Registered .................  
+[2023-05-29 20:04:27] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => 'd8821dd4-251c-4d5c-9cd6-4f45466702fc',
+    'displayName' => 'App\\Notifications\\Customer\\Registered',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:10;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:37:"App\\Notifications\\Customer\\Registered":12:{s:8:"customer";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";i:256;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"d3b242fc-fe93-4039-886c-c991f66c04ef";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:8:"database";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:04:27] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:04:27] local.INFO: ............. Job Processing:: App\Notifications\Customer\Registered .................  
+[2023-05-29 20:04:27] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '1070304b-f46f-4d67-9cc4-e26bed12bb87',
+    'displayName' => 'App\\Notifications\\Customer\\Registered',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:11;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:37:"App\\Notifications\\Customer\\Registered":12:{s:8:"customer";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";i:256;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"13307a35-6091-40ad-8f8a-3e0dc173ec5c";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:4:"mail";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:04:27] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:04:27] local.INFO: ............. Job Processing:: App\Notifications\Customer\Registered .................  
+[2023-05-29 20:04:27] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '2e9d7c24-b92b-46fe-8407-3d7724577c6b',
+    'displayName' => 'App\\Notifications\\Customer\\Registered',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:11;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:37:"App\\Notifications\\Customer\\Registered":12:{s:8:"customer";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";i:256;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"13307a35-6091-40ad-8f8a-3e0dc173ec5c";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:8:"database";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:04:27] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:04:27] local.INFO: ............. Job Processing:: App\Notifications\Customer\Registered .................  
+[2023-05-29 20:04:27] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => 'c91d86bd-83d0-4d23-8fc4-b362c6f7a6f7',
+    'displayName' => 'App\\Notifications\\Customer\\Registered',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:12;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:37:"App\\Notifications\\Customer\\Registered":12:{s:8:"customer";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";i:256;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"a7b041af-9fe5-42ba-8188-e91612274aed";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:4:"mail";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:04:27] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:04:27] local.INFO: ............. Job Processing:: App\Notifications\Customer\Registered .................  
+[2023-05-29 20:04:27] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '77be676a-da48-4538-a843-1a6c16622455',
+    'displayName' => 'App\\Notifications\\Customer\\Registered',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:12;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:37:"App\\Notifications\\Customer\\Registered":12:{s:8:"customer";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";i:256;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"a7b041af-9fe5-42ba-8188-e91612274aed";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:8:"database";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:04:27] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:04:27] local.INFO: ............. Job Processing:: App\Listeners\Customer\SendWelcomeEmail .................  
+[2023-05-29 20:04:27] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => 'caf0baf7-7f41-463a-bed2-5757bfdaf021',
+    'displayName' => 'App\\Listeners\\Customer\\SendWelcomeEmail',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => 5,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Events\\CallQueuedListener',
+      'command' => 'O:36:"Illuminate\\Events\\CallQueuedListener":19:{s:5:"class";s:39:"App\\Listeners\\Customer\\SendWelcomeEmail";s:6:"method";s:6:"handle";s:4:"data";a:1:{i:0;O:30:"App\\Events\\Customer\\Registered":1:{s:8:"customer";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";i:256;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}}}s:5:"tries";i:5;s:13:"maxExceptions";N;s:7:"backoff";N;s:10:"retryUntil";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:04:27] local.INFO: ............. Job Processing:: App\Notifications\Customer\Registered .................  
+[2023-05-29 20:04:27] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '646618f5-6a83-49ba-8999-7535ee215c45',
+    'displayName' => 'App\\Notifications\\Customer\\Registered',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";a:1:{i:0;i:256;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:37:"App\\Notifications\\Customer\\Registered":12:{s:8:"customer";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";i:256;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"6a973546-9a6f-4244-9c98-5298e6cbf47d";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:4:"mail";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:04:27] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:04:27] local.INFO: ............. Job Processing:: App\Notifications\Customer\Registered .................  
+[2023-05-29 20:04:27] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => 'a3d07e94-8ac5-4e63-8eb1-8882230181ff',
+    'displayName' => 'App\\Notifications\\Customer\\Registered',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";a:1:{i:0;i:256;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:37:"App\\Notifications\\Customer\\Registered":12:{s:8:"customer";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";i:256;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"6a973546-9a6f-4244-9c98-5298e6cbf47d";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:8:"database";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:04:27] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:04:27] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:04:27] local.INFO: ............. Job Processing:: App\Listeners\Customer\RegisterNewsletter .................  
+[2023-05-29 20:04:27] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => 'c3200dab-13bb-446d-bb9d-3cff75275647',
+    'displayName' => 'App\\Listeners\\Customer\\RegisterNewsletter',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => 5,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Events\\CallQueuedListener',
+      'command' => 'O:36:"Illuminate\\Events\\CallQueuedListener":19:{s:5:"class";s:41:"App\\Listeners\\Customer\\RegisterNewsletter";s:6:"method";s:6:"handle";s:4:"data";a:1:{i:0;O:30:"App\\Events\\Customer\\Registered":1:{s:8:"customer";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:19:"App\\Models\\Customer";s:2:"id";i:256;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}}}s:5:"tries";i:5;s:13:"maxExceptions";N;s:7:"backoff";N;s:10:"retryUntil";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:04:27] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:07:25] local.INFO: ............. Job Processing:: App\Notifications\Booking\BookingNotification .................  
+[2023-05-29 20:07:25] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => 'ccded653-7228-4236-bce1-64d41ce0a7c8',
+    'displayName' => 'App\\Notifications\\Booking\\BookingNotification',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:3;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:45:"App\\Notifications\\Booking\\BookingNotification":12:{s:11:"records_obj";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:43:"App\\Models\\StylistClientBookingAppointments";s:2:"id";i:6;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"a48765d8-4a9d-45b4-b400-aad5414918cd";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:4:"mail";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:07:25] local.INFO: ......................... Job Processed Successfully .............................  
+[2023-05-29 20:07:25] local.INFO: ............. Job Processing:: App\Notifications\Booking\BookingNotification .................  
+[2023-05-29 20:07:25] local.INFO: array (
+  'payload' => 
+  array (
+    'uuid' => '5133865f-5d7b-479e-82fb-7e4c6e8fa2fc',
+    'displayName' => 'App\\Notifications\\Booking\\BookingNotification',
+    'job' => 'Illuminate\\Queue\\CallQueuedHandler@call',
+    'maxTries' => NULL,
+    'maxExceptions' => NULL,
+    'failOnTimeout' => false,
+    'backoff' => NULL,
+    'timeout' => NULL,
+    'retryUntil' => NULL,
+    'data' => 
+    array (
+      'commandName' => 'Illuminate\\Notifications\\SendQueuedNotifications',
+      'command' => 'O:48:"Illuminate\\Notifications\\SendQueuedNotifications":16:{s:11:"notifiables";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:15:"App\\Models\\User";s:2:"id";a:1:{i:0;i:3;}s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:12:"notification";O:45:"App\\Notifications\\Booking\\BookingNotification":12:{s:11:"records_obj";O:45:"Illuminate\\Contracts\\Database\\ModelIdentifier":4:{s:5:"class";s:43:"App\\Models\\StylistClientBookingAppointments";s:2:"id";i:6;s:9:"relations";a:0:{}s:10:"connection";s:5:"mysql";}s:2:"id";s:36:"a48765d8-4a9d-45b4-b400-aad5414918cd";s:6:"locale";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}s:8:"channels";a:1:{i:0;s:8:"database";}s:5:"tries";N;s:7:"timeout";N;s:17:"shouldBeEncrypted";b:0;s:3:"job";N;s:10:"connection";N;s:5:"queue";N;s:15:"chainConnection";N;s:10:"chainQueue";N;s:19:"chainCatchCallbacks";N;s:5:"delay";N;s:11:"afterCommit";N;s:10:"middleware";a:0:{}s:7:"chained";a:0:{}}',
+    ),
+  ),
+)  
+[2023-05-29 20:07:25] local.INFO: ......................... Job Processed Successfully .............................  

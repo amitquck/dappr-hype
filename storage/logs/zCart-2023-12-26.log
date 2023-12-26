@@ -1,0 +1,180 @@
+[2023-12-26 18:16:42] local.INFO: ............................. Message Sending .....................................  
+[2023-12-26 18:16:42] local.INFO: array (
+  'subject' => '',
+)  
+[2023-12-26 18:16:42] local.DEBUG: Message-ID: <0a9cf003eb1d6ab629ee3525438101ed@127.0.0.1>
+Date: Tue, 26 Dec 2023 18:16:42 +1100
+Subject: Sendgrid Mail Testing
+From: Contact <contact@manipuraco.net>
+Reply-To: Example <hello@example.com>
+To: amitquckit@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>This is a test email content.</p>
+  
+[2023-12-26 18:16:42] local.INFO: ........................... Message Sent Successfully .................................  
+[2023-12-26 18:17:59] local.INFO: ............................. Message Sending .....................................  
+[2023-12-26 18:17:59] local.INFO: array (
+  'subject' => '',
+)  
+[2023-12-26 18:17:59] local.DEBUG: Message-ID: <b4aa7f08cd8a555a7988bab1e546b782@127.0.0.1>
+Date: Tue, 26 Dec 2023 18:17:59 +1100
+Subject: Test Send Grid Subject
+From: Contact <contact@manipuraco.net>
+Reply-To: Example <hello@example.com>
+To: amitquckit@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>This is a test email content.</p>
+  
+[2023-12-26 18:17:59] local.INFO: ........................... Message Sent Successfully .................................  
+[2023-12-26 18:18:00] local.INFO: ............................. Message Sending .....................................  
+[2023-12-26 18:18:00] local.INFO: array (
+  'subject' => '',
+)  
+[2023-12-26 18:18:00] local.DEBUG: Message-ID: <a15b6ea9a811653798e13a05e3861545@127.0.0.1>
+Date: Tue, 26 Dec 2023 18:18:00 +1100
+Subject: Test Send Grid Subject
+From: Contact <contact@manipuraco.net>
+Reply-To: Example <hello@example.com>
+To: amitquckit@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>This is a test email content.</p>
+  
+[2023-12-26 18:18:00] local.INFO: ........................... Message Sent Successfully .................................  
+[2023-12-26 18:18:00] local.INFO: ............................. Message Sending .....................................  
+[2023-12-26 18:18:00] local.INFO: array (
+  'subject' => '',
+)  
+[2023-12-26 18:18:00] local.DEBUG: Message-ID: <553e27485e426b57aa47456c9b74cd75@127.0.0.1>
+Date: Tue, 26 Dec 2023 18:18:00 +1100
+Subject: Test Send Grid Subject
+From: Contact <contact@manipuraco.net>
+Reply-To: Example <hello@example.com>
+To: amitquckit@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>This is a test email content.</p>
+  
+[2023-12-26 18:18:00] local.INFO: ........................... Message Sent Successfully .................................  
+[2023-12-26 18:18:07] local.INFO: ............................. Message Sending .....................................  
+[2023-12-26 18:18:07] local.INFO: array (
+  'subject' => '',
+)  
+[2023-12-26 18:18:07] local.DEBUG: Message-ID: <1b2745ff5006c29e46277e1a95f6972a@127.0.0.1>
+Date: Tue, 26 Dec 2023 18:18:07 +1100
+Subject: Test Send Grid Subject
+From: Contact <contact@manipuraco.net>
+Reply-To: Example <hello@example.com>
+To: amitquckit@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>This is a test email content.</p>
+  
+[2023-12-26 18:18:07] local.INFO: ........................... Message Sent Successfully .................................  
+[2023-12-26 18:18:21] local.INFO: ............................. Message Sending .....................................  
+[2023-12-26 18:18:21] local.INFO: array (
+  'subject' => '',
+)  
+[2023-12-26 18:18:21] local.DEBUG: Message-ID: <4b2b0667901ea76f5494930cef992ba5@127.0.0.1>
+Date: Tue, 26 Dec 2023 18:18:21 +1100
+Subject: Test Send Grid Subject
+From: Contact <contact@manipuraco.net>
+Reply-To: Example <hello@example.com>
+To: amitquckit@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>This is a test email content.</p>
+  
+[2023-12-26 18:18:21] local.INFO: ........................... Message Sent Successfully .................................  
+[2023-12-26 18:19:20] local.INFO: ............................. Message Sending .....................................  
+[2023-12-26 18:19:20] local.INFO: array (
+  'subject' => '',
+)  
+[2023-12-26 18:19:20] local.DEBUG: Message-ID: <42038939471a845c6f3b69e224abd826@127.0.0.1>
+Date: Tue, 26 Dec 2023 18:19:20 +1100
+Subject: Test Send Grid Subject
+From: Contact <contact@manipuraco.net>
+Reply-To: Example <hello@example.com>
+To: gautamamit557@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>This is a test email content.</p>
+  
+[2023-12-26 18:19:20] local.INFO: ........................... Message Sent Successfully .................................  
+[2023-12-26 18:19:40] local.INFO: ............................. Message Sending .....................................  
+[2023-12-26 18:19:40] local.INFO: array (
+  'subject' => '',
+)  
+[2023-12-26 18:19:40] local.DEBUG: Message-ID: <c62419b630223d6c4b987009115d3ef6@127.0.0.1>
+Date: Tue, 26 Dec 2023 18:19:40 +1100
+Subject: Test Send Grid Subject
+From: Contact <contact@manipuraco.net>
+Reply-To: Example <hello@example.com>
+To: gautamamit557@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>This is a test email content.</p>
+  
+[2023-12-26 18:19:40] local.INFO: ........................... Message Sent Successfully .................................  
+[2023-12-26 07:43:42] local.ERROR: Unable to read key from file file://C:\xampp\htdocs\dappr-hype\storage\oauth-private.key {"exception":"[object] (LogicException(code: 0): Unable to read key from file file://C:\\xampp\\htdocs\\dappr-hype\\storage\\oauth-private.key at C:\\xampp\\htdocs\\dappr-hype\\vendor\\league\\oauth2-server\\src\\CryptKey.php:67)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\passport\\src\\PassportServiceProvider.php(275): League\\OAuth2\\Server\\CryptKey->__construct('file://C:\\\\xampp...', NULL, false)
+#1 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\passport\\src\\PassportServiceProvider.php(214): Laravel\\Passport\\PassportServiceProvider->makeCryptKey('private')
+#2 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\passport\\src\\PassportServiceProvider.php(104): Laravel\\Passport\\PassportServiceProvider->makeAuthorizationServer()
+#3 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(873): Laravel\\Passport\\PassportServiceProvider->Laravel\\Passport\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#4 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build(Object(Closure))
+#5 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('League\\\\OAuth2\\\\S...', Array, true)
+#6 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('League\\\\OAuth2\\\\S...', Array)
+#7 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('League\\\\OAuth2\\\\S...', Array)
+#8 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1027): Illuminate\\Foundation\\Application->make('League\\\\OAuth2\\\\S...')
+#9 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(947): Illuminate\\Container\\Container->resolveClass(Object(ReflectionParameter))
+#10 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#11 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('Laravel\\\\Passpor...')
+#12 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('Laravel\\\\Passpor...', Array, true)
+#13 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('Laravel\\\\Passpor...', Array)
+#14 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('Laravel\\\\Passpor...', Array)
+#15 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(276): Illuminate\\Foundation\\Application->make('Laravel\\\\Passpor...')
+#16 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1069): Illuminate\\Routing\\Route->getController()
+#17 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1012): Illuminate\\Routing\\Route->controllerMiddleware()
+#18 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(734): Illuminate\\Routing\\Route->gatherMiddleware()
+#19 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\RouteListCommand.php(175): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#20 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\RouteListCommand.php(119): Illuminate\\Foundation\\Console\\RouteListCommand->getMiddleware(Object(Illuminate\\Routing\\Route))
+#21 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\RouteListCommand.php(91): Illuminate\\Foundation\\Console\\RouteListCommand->getRouteInformation(Object(Illuminate\\Routing\\Route))
+#22 [internal function]: Illuminate\\Foundation\\Console\\RouteListCommand->Illuminate\\Foundation\\Console\\{closure}(Object(Illuminate\\Routing\\Route), 2)
+#23 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Collections\\Collection.php(695): array_map(Object(Closure), Array, Array)
+#24 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\RouteListCommand.php(90): Illuminate\\Support\\Collection->map(Object(Closure))
+#25 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\RouteListCommand.php(76): Illuminate\\Foundation\\Console\\RouteListCommand->getRoutes()
+#26 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Console\\RouteListCommand->handle()
+#27 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#28 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#29 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#30 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#31 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(136): Illuminate\\Container\\Container->call(Array)
+#32 C:\\xampp\\htdocs\\dappr-hype\\vendor\\symfony\\console\\Command\\Command.php(298): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#33 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(120): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#34 C:\\xampp\\htdocs\\dappr-hype\\vendor\\symfony\\console\\Application.php(1015): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 C:\\xampp\\htdocs\\dappr-hype\\vendor\\symfony\\console\\Application.php(299): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\RouteListCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#36 C:\\xampp\\htdocs\\dappr-hype\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#37 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(94): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#38 C:\\xampp\\htdocs\\dappr-hype\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#39 C:\\xampp\\htdocs\\dappr-hype\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#40 {main}
+"} 
