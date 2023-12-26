@@ -17,7 +17,7 @@ abstract class EloquentRepository
     }
 
     public function find($id)
-    {   
+    {
         return $this->model->findOrFail($id);
     }
 
@@ -53,11 +53,19 @@ abstract class EloquentRepository
     {
         $model = $this->model->findOrFail($id);
 
+
         $model->update($request->all());
 
         if ($request->input('delete_image')) {
-            foreach ($request->delete_image as $type => $value) {
-                $model->deleteImageTypeOf($type);
+            if(is_array($request->input('delete_image')) && !empty($request->input('delete_image')))
+            {
+                foreach ($request->delete_image as $type => $value) {
+                    $model->deleteImageTypeOf($type);
+                }
+            }
+            else
+            {
+                $model->deleteImageTypeOf($request->input('delete_image'));
             }
         }
 

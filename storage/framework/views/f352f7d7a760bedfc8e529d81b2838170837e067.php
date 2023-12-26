@@ -1,0 +1,1 @@
+<span class="label label-default"><?php echo e($customer->orders_count, false); ?></span><?php /**PATH C:\xampp\htdocs\dappr-hype\resources\views/admin/partials/actions/customer/orders_count.blade.php ENDPATH**/ ?>
